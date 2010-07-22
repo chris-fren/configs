@@ -110,3 +110,13 @@ export PATH=/home/fmaker/opt/android-sdk-linux_86/tools:/home/fmaker/bin/:/usr/l
 # Android build environment
 ~/android-google/build/envsetup.sh
 
+# Git
+alias gst='git status'
+alias gl='git pull'
+alias gp='git push'
+alias gd='git diff'
+alias gc='git commit -v'
+alias gca='git commit -v -a'
+alias gb='git branch'
+alias gba='git branch -a'
+

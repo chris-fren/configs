@@ -1,0 +1,10 @@
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	amend = commit --amend -C HEAD
+	co = checkout
+[user]
+	name = Frank Maker
+	email = fmaker@handycodeworks.com
