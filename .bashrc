@@ -105,11 +105,6 @@ export PATH=~/bin/:$PATH
 #alias emacs='emacs -nw'
 alias ec='emacsclient --no-wait'
 
-export PATH=/home/fmaker/opt/android-sdk-linux_86/tools:/home/fmaker/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
-
-# Android build environment
-~/android-google/build/envsetup.sh
-
 # Git
 alias gst='git status'
 alias gl='git pull'
@@ -120,3 +115,4 @@ alias gca='git commit -v -a'
 alias gb='git branch'
 alias gba='git branch -a'
 
+export PATH=~/bin:~/opt/android-sdk-linux_86/tools/:/usr/lib/jvm/java-6-sun/bin::/home/fmaker/bin:/home/fmaker/opt/android-sdk-linux_86/tools/:/home/fmaker/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/fmaker/opt/android-google/out/host/linux-x86/bin:/home/fmaker/opt/android-google/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin:/home/fmaker/opt/android-google/development/emulator/qtools:/home/fmaker/opt/android-google/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin:/home/fmaker/opt/android-google/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin
