@@ -107,7 +107,7 @@
 (tool-bar-mode 0)
 
 ;; Enable tab bar
-(tabbar-mode 1)
+;;(tabbar-mode 1)
 
 ;; Truncate lines instead of wrapping
 (setq truncate-lines 1)

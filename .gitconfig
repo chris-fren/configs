@@ -8,3 +8,5 @@
 [user]
 	name = Frank Maker
 	email = fmaker@handycodeworks.com
+[merge]
+	tool = meld
