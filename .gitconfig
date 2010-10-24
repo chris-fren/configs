@@ -7,6 +7,6 @@
 	co = checkout
 [user]
 	name = Frank Maker
-	email = fmaker@handycodeworks.com
+	email = frank.maker@gmail.com
 [merge]
 	tool = meld

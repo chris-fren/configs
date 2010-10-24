@@ -117,8 +117,8 @@ alias gba='git branch -a'
 
 export PATH=~/bin:~/opt/android-sdk-linux_86/tools/:$PATH
 
-# ls colors
-#LS_COLORS='di=1;36'
+# ls colors 
+LS_COLORS='di=1;36' # Make blue directories easier to see on black
 
 alias open='xdg-open'
 
