@@ -1,0 +1,3 @@
+# Set up the keyboard the way we like it
+xkbcomp -I$HOME/.xkb $HOME/.xkb/keymap/my_keyboard.xkb $DISPLAY
+

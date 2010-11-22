@@ -1,0 +1,4 @@
+partial modifier_keys
+xkb_symbols "caps_alt" {
+key <CAPS> { [ Alt_L, Alt_R ] };
+};
