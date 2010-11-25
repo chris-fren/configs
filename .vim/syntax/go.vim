@@ -1,0 +1,1 @@
+/home/fmaker/go/misc/vim/syntax/go.vim
