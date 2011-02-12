@@ -1,2 +1,3 @@
 startup_message off
 caption always "%{Wb} %H %{Bk}| %{Ck}%-w%50>%{Cb} %n %t %{-}%+w%<%{- Wk}%{Bk} | %= |%{Wb} Load: %l %{Bk}|%{Wb} %C "
+defscrollback 9999

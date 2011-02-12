@@ -1,5 +1,5 @@
 " Customize leader key
-let mapleader = ","
+let mapleader = " "
 
 " Display whitespaces
 set listchars=tab:>-,trail:·,eol:$
@@ -21,7 +21,7 @@ set hidden
 syntax on
 
 " Default color scheme
-colorscheme eclipse
+colorscheme adrian
 
 " Line numbers
 set number
@@ -30,9 +30,9 @@ set number
 nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 
 " Start maximized
-if has("gui_running")
-	set lines=9999 columns=9999
-endif
+"if has("gui_running")
+"	set lines=9999 columns=9999
+"endif
 
 " Filetype plugins
 filetype plugin on
@@ -52,3 +52,31 @@ autocmd FileType python set complete+=k~/.vim/syntax/python3.0.vim isk+=.,(
 
 " Python tab completion
 let g:pydiction_location = '~/.vim/vimfiles/ftplugin/pydiction/complete-dict'
+
+" Hide gui components
+set guioptions-=m "remove menu bar
+set guioptions-=T "remove toolbar
+set guioptions-=r "remove right-hand scroll bar
+
+" NERDTree shortcut (c-l fixes artifact)
+nmap <silent> <c-n> :NERDTreeToggle<CR><c-l>
+
+" Always cd to directory of current file
+function AlwaysCD()
+  if bufname("") !~ "^ftp://"
+    lcd %:p:h
+  endif
+endfunction
+autocmd BufEnter * call AlwaysCD()
+
+" Easy toggle between src and header file
+map <C-Tab> :A<CR>
+map <C-h> :AS<CR> 
+
+" Set print magin 
+if has("colorcolumn")
+  set colorcolumn=80
+else
+  au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+endif
+
