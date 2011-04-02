@@ -9,7 +9,8 @@ CONFIG_FILES=".bashrc
 .gitconfig
 .gtkrc-2.0
 .screenrc
-.Xmodmap"
+.Xmodmap
+.bashDirB"
 
 for i in ${CONFIG_FILES}
 do

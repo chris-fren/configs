@@ -1,7 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/fmaker/.ssh'
 let g:netrw_dirhist_2='/home/fmaker/.flickrfs'
 let g:netrw_dirhist_3='/home/fmaker/workspace_bak/TalkBin/bin'
 let g:netrw_dirhist_4='/home/fmaker/.ssh'
 let g:netrw_dirhist_5='/home/fmaker/.config'
+let g:netrw_dirhist_6='/home/fmaker/workspace/LazySimulator/results/03_04_2011_16_19_30/summary'
+let g:netrw_dirhist_7='/home/fmaker/workspace/LazySimulator/results/03_07_2011_20_52_47/summary'
+let g:netrw_dirhist_8='/home/fmaker/workspace/LazySimulator/results/03_24_2011_15_46_43/all_cam_configs/hill_climbing+doeinit+limit_energy=120566'
+let g:netrw_dirhist_9='/home/fmaker/.ssh'

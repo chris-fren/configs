@@ -1,3 +1,6 @@
+" Load pathogen plugin
+call pathogen#runtime_append_all_bundles() 
+
 " Customize leader key
 let mapleader = " "
 
@@ -21,7 +24,12 @@ set hidden
 syntax on
 
 " Default color scheme
-colorscheme adrian
+if has ('gui_running')
+	set background=light
+else
+	set background=dark
+endif
+colorscheme solarized
 
 " Line numbers
 set number
@@ -79,4 +87,14 @@ if has("colorcolumn")
 else
   au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 endif
+
+" Remove annoying delay
+set timeoutlen=100
+
+" Replace ESC with tab
+"nnoremap <Tab> <Esc>
+"vnoremap <Tab> <Esc>gV
+"onoremap <Tab> <Esc>
+"inoremap <Tab> <Esc>`^
+"inoremap <Leader><Tab> <Tab>
 
