@@ -115,36 +115,12 @@ alias gca='git commit -v -a'
 alias gb='git branch'
 alias gba='git branch -a'
 
-# Android
-export PATH=~/bin:~/opt/android-sdk-linux_x86/platform-tools/:~/opt/android-sdk-linux_x86/tools/:$PATH
-
-# Android kernel
-#export ARCH=arm
-#export CROSS_COMPILE=~/opt/android-google/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin
-function setup_arm {
-	export ARCH=arm
-	export CROSS_COMPILE=~/opt/android-google/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-
-}
+export PATH=~/bin:~/opt/android-sdk-linux_86/tools/:$PATH
 
 # ls colors 
 LS_COLORS='di=1;36' # Make blue directories easier to see on black
 
-# OSX Open command
 alias open='xdg-open'
 
-# Bash directory bookmarks
-source ~/.bashDirB
-
-# Vim mode
-set -o vi
-
-# Fix sudo path problem
-#alias sudo='sudo env PATH=$PATH'
-
-# Prompt
-PS1="\[\033[35m\]\t\[\033[m\]-\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
-
-# Replace apt-get with apt-fast
-alias sudo='sudo '
-alias apt-get='apt-fast'
-
+# Temporary until learning emacs
+alias vim="emacs"
