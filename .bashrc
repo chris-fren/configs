@@ -114,6 +114,7 @@ alias gc='git commit -v'
 alias gca='git commit -v -a'
 alias gb='git branch'
 alias gba='git branch -a'
+alias gpo='git push origin'
 
 # Android
 export PATH=~/bin:~/opt/android-sdk-linux_x86/platform-tools/:~/opt/android-sdk-linux_x86/tools/:$PATH
