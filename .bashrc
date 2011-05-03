@@ -81,6 +81,7 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias lrt='ls -lrt'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -147,4 +148,7 @@ alias sudo='sudo '
 alias apt-get='apt-fast'
 
 # Until learn emacs
-alias vim='emacs'
+#alias vim='emacs'
+
+# Emacs as default
+export EDITOR='emacs -nw'
