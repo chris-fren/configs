@@ -5,7 +5,6 @@ INSTALL_DIR=${HOME}
 
 # Each file to be linked to should be in this list!
 CONFIG_FILES=".bashrc
-.emacs
 .gitconfig
 .gtkrc-2.0
 .screenrc
