@@ -7,10 +7,12 @@
  '(backup-directory-alist (quote (("." . "~/.saves"))))
  '(desktop-save t)
  '(desktop-save-mode t)
+ '(global-hi-lock-mode nil)
  '(global-linum-mode t)
  '(linum-eager t)
  '(scroll-bar-mode nil)
  '(scroll-step 1)
+ '(server-auth-dir "n/home/fmaker/.emacs.d/server/")
  '(server-mode t)
  '(sr-speedbar-width-x 48)
  '(tool-bar-mode nil)
@@ -70,4 +72,10 @@
 ;; Replace string
 (global-set-key (kbd "s-r") 'replace-string)
 
+;; Alternatives for Alt-M
+(global-set-key "\C-x\C-m" 'execute-extended-command)
+;;(global-set-key "\C-c\C-m" 'execute-extended-command)
+
+;; Hilight current line
+(global-hl-line-mode 1)
 
