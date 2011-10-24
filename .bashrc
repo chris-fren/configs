@@ -108,7 +108,7 @@ alias ec='emacsclient --no-wait'
 
 # Git
 alias gst='git status'
-alias gl='git pull'
+alias gl='git log --graph '
 alias gp='git push'
 alias gd='git diff'
 alias gc='git commit -v'
@@ -147,8 +147,11 @@ source ~/.bashDirB
 alias sudo='sudo '
 alias apt-get='apt-fast'
 
-# Until learn emacs
-#alias vim='emacs'
-
 # Emacs as default
-export EDITOR='emacs -nw'
+export EDITOR='vim'
+
+# todo.txt
+export PATH=~/Dropbox/todo/:$PATH
+alias t='todo.sh'
+
+alias festival='esddsp festival'
